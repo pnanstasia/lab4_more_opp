@@ -5,6 +5,6 @@ import kick.KingCry;
 public class Knight extends Character{
 
     public Knight(){
-        super(new Random().nextInt(2, 12), new Random().nextInt(2, 12), new KingCry());
+        super(new Random().nextInt(11) + 2, new Random().nextInt(11) + 2, new KingCry());
     }
 }
